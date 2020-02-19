@@ -1,0 +1,83 @@
+
+<div class="container form-zam" style="padding:20px;">
+    <h4 class="row justify-content-center" style="padding-top:10px;padding-bottom: 10px;">Składasz zamówienie na</h4>
+    <div class="table-fluid row justify-content-center" style="padding-bottom: 20px;">
+        <table class="table col-md-6">
+          <thead>
+            <tr>
+              <th>Nazwa</th>
+              <th>Sztuk</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let item of koszyk">
+                <td>{{item.produkt.nazwa}}</td>
+                <td>{{item.ilosc}}</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    <form (ngSubmit)="zlozZamowienie(zamForm)" #zamForm="ngForm" name="zamowienieForm">
+        <div class="row form-group justify-content-md-center">
+            <label for='imie'  class='col-md-2'>Imię*</label>
+            <input id='imie' #imieX="ngModel" required pattern='[a-żA-Ż -]{2,255}' [(ngModel)]="klient.imie"  name="imie" type='text' class="col-md-5 form-control"/>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <label for='nazwisko' class='col-md-2'>Nazwisko*</label>
+            <input id='nazwisko'  required pattern='[a-żA-Ż -]{2,255}' [(ngModel)]="klient.nazwisko"  name="nazwisko" type='text' class="col-md-5 form-control"/>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <label for='dostawa' class='col-md-2'>Dostawa*</label>
+            <select  [(ngModel)]="dostawa"  name="dostawa" #dostawaId #dostawaText="ngModel" class="form-control col-md-5" id="dostawa">
+                <option>Kurier</option>
+                <option>Odbiór osobisty</option>
+              </select>
+        </div>
+        <div *ngIf="dostawa!=='Odbiór osobisty'" class="form-group">
+            <div class="row  justify-content-md-center">
+                <label for='adres' class='col-md-2'>Adres dostawy*</label>
+                <input id='adres'  required pattern='[a-żA-Ż -]{2,255}' [(ngModel)]="klient.miasto"  name="miasto" type='text' placeholder='Miasto' class="col-md-3 form-control"/>
+                <div class="col-md-2" style="padding-right: 0px; padding-left: 0px;">
+                    <input id='adresKod' required pattern='[0-9]{5}' [(ngModel)]="klient.kodPocz" placeholder='Kod pocztowy(5 cyfr)' name="kodPocz" type='text' class="offset-md-1 col-md-11 form-control"/>
+                </div>
+            </div>
+            <div class="row justify-content-md-center" style="margin-top:1px">
+                <input id='adresUl' required pattern='[a-żA-Ż0-9 -]{2,255}' [(ngModel)]="klient.ulica" placeholder='Ulica' name="ulica" type='text' class="offset-md-2 col-md-3 form-control"/>
+                <div class="col-md-2" style="padding-right: 0px; padding-left: 0px;">
+                    <input id='adresNr' required pattern='[a-zA-Z0-9 -/]{0,10}'  [(ngModel)]="klient.nrDomu"  placeholder='Nr domu' name="nrDomu" type='text' class="offset-md-1 col-md-11 form-control"/>
+                </div>
+            </div>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <label for='telefon' class='col-md-2'>Telefon*</label>
+            <input id='telefon' [(ngModel)]="klient.telefon" required pattern='[0-9]{9,12}' name="telefon"  type='text' class="col-md-5 form-control"/>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <label for='email' class='col-md-2'>Email</label>
+            <input id='email'  [(ngModel)]="klient.email"  name="email" type='email' class="col-md-5 form-control"/>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <label for='dodOpis' class='col-md-2'>Dodatkowy opis</label>
+            <input id='dodOpis'  [(ngModel)]="dodOpis"  name="dodOpis" type='text' class="col-md-5 form-control"/>
+        </div>
+        <div class="row justify-content-md-center" style="margin-top: 30px;margin-bottom: 10px;">
+            <h4>Wybierz sposób płatności</h4>
+        </div>
+        <div class="row form-group justify-content-md-center">
+            <input type="radio" [(ngModel)]="typPlat" name="typPlat" [value]='1' class="sr-only" id="payu">
+            <label for="payu" class='platnosc align-items-center'>
+                <img  class='img-fluid img-plat' src="assets/payu.jpg" alt='payu'>
+            </label>
+            <input type="radio" [(ngModel)]="typPlat" name="typPlat" [value]='2' class="sr-only" id="przelewy24">
+            <label for="przelewy24" class='platnosc align-items-center' >
+                 <img  class='img-fluid img-plat' src="assets/przelewy.jpg" alt='przelewy24'>
+            </label>
+            <input type="radio" [(ngModel)]="typPlat" name="typPlat" [value]='3' class="sr-only " id="naMiejscu">
+            <label for="naMiejscu" class='platnosc '>
+                 <h5 class='img-plat' style="text-align: center; padding-top:35px"> Płatność na miejscu</h5>
+            </label>
+        </div>
+        <button type="submit" style=" margin:0 auto;
+        display:block;margin-top:30px;" class="btn btn-primary">Zamawiam</button>
+    </form>
+</div>

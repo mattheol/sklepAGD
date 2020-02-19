@@ -1,0 +1,45 @@
+.platnosc{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    position: relative;
+    margin:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    border:solid 1px rgba(15, 15, 15, 0.342);
+}
+
+
+
+.img-plat{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+  .platnosc:hover {
+    filter: grayscale(0);
+  }
+  
+  input[type="radio"]:checked + label {
+    filter: grayscale(0);
+    border:solid 1px black;
+  }
+
+  .form-zam{
+    margin-top:30px;
+    margin-bottom:50px;
+    background-color:white;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.6);
+  }
+
+.ng-invalid:not(form){
+    border: 1px solid red;
+}

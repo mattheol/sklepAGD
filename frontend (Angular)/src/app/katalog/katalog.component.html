@@ -1,0 +1,92 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class=" col-md-3 col-12" >
+            <h3 style="padding-left: 10px;">Kategorie</h3>
+            <div class='kat-card'>
+                <div class ="row" >
+                        <div class = "col" *ngIf="this.currentKat;else other1">
+                            <a routerLink="/katalog"> Wszystkie</a>
+                        </div>
+                        <ng-template #other1>
+                                <div class="col">
+                                        <b><u>Wszystkie</u></b>
+                                </div>
+                        </ng-template>
+                </div>
+                <div  *ngFor = 'let category of categories;index as i' >
+                        <div class ="row">
+                            <div class = "col" *ngIf="category.nazwa!==this.currentKat;else other">
+                                    <a [routerLink]="['/katalog', category.nazwa]">{{category.nazwa}} </a>
+                            </div>
+                            <ng-template #other>
+                                <div class="col">
+                                        <b><u>{{category.nazwa}}</u></b>
+                                </div>
+                            </ng-template>
+                        </div>
+                </div>
+            </div>
+                <div style='margin-top:30px;padding-left:10px' > 
+                Zaawansowane <button class="btn btn-arrow btn-one" (click)='trigger()'
+                 *ngIf ="!this.buttonPressed;else arrowTop" >
+                    <i class="arrow-down"></i>
+                </button>
+
+                <ng-template #arrowTop>
+                   <button class="btn btn-arrow btn-two" (click)='trigger()'>
+                        <i class="arrow-top"></i>
+                    </button>
+                </ng-template> 
+                </div>
+                <div [@openClose]='stateName' class='kat-card' style='margin-top:5px'>
+                    <div class="row justify-content-md-center">
+                        <div class='col-md-12' style="padding-top: 10px;padding-bottom: 5px;">
+                            <mat-checkbox [(ngModel)]="checkboxFiltr" [ngModelOptions]="{standalone: true}">
+                                Tylko dostępne w magazynie
+                            </mat-checkbox>
+                        </div>
+                        <h5 class='col-md-10' style='text-align: center;'>Cena </h5>
+                        <mat-form-field class="col-md-5 price-form" >
+                            <input [(ngModel)]="priceDown" [ngModelOptions]="{standalone: true}" matInput type='number' min='0' placeholder="od">
+                        </mat-form-field>
+                        <mat-form-field class="col-md-5 price-form" >
+                            <input [(ngModel)]="priceTop" [ngModelOptions]="{standalone: true}" matInput type='number' min='0' placeholder="do">
+                        </mat-form-field>
+                        <button class='btn btn-success' (click)='filtruj()'>Zastosuj</button>
+                    </div>
+                </div>
+
+        </div>
+            <div class="col-lg-9 marg col-md-12 " >
+                    <div class="offset-lg-7">
+                        <div class="row">
+                            <form class="form-inline waves-light" mdbWavesEffect>
+                                        <div class="md-form mt-0">
+                                        <input  [(ngModel)] = "inputSearch" [ngModelOptions]="{standalone: true}" class="form-control mr-sm-2"type="text" placeholder="Czego szukasz?">
+                                        </div>
+                            </form>
+                            <button class="btn btn-success" (click)="search()">
+                                Wyszukaj
+                            </button>
+                         </div>
+                    </div>
+                        <div class = "offset-8" style='margin-top:40px;'>
+                            <div class='row align-items-center' style="padding-left: 20px;">
+                                <h4 class='col-2'>Cena</h4>
+                                <div class='col-2'>
+                                    <div class='col-12 align-items-center'>
+                                        <img (click)="sortuj('asc')" class="pointer" [src]="['assets/arrow-top.png']">
+                                        <img (click)="sortuj('desc')" class="pointer" [src]="['assets/arrow-down.png']">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col-lg-10 col-12">
+                   <div class="container marg">
+                    <app-produkt [events]="eventsSubject.asObservable()" [sortEvent]="sortSubject.asObservable()" [filtrEvent]="filtrSubject.asObservable()"></app-produkt>
+                 </div>
+               </div>
+            </div>
+         </div>
+</div>

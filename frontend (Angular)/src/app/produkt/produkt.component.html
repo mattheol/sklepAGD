@@ -1,0 +1,25 @@
+    <div @items *ngFor = 'let product of currentProducts;index as i' >
+            <div class ="container prod-item"  [routerLink]="['/produkt', product.idProd]">
+                <div class ="row row-margin" >
+                    <div class = "col-4">
+                        <img [src]="['assets/'+product.idProd+'.jpg']"class="img-list" alt="image">  
+                    </div>
+                    <div class = "col-md-5 text-row" style="padding-left: 30px; padding-top:10px">
+                            {{product.nazwa}}
+                    </div>
+                    <div class = "col-md text-row price-row" style="padding-top:10px">
+                        <b><i>{{product.cena | number : '0.2':'fr-FR'}} zł</i></b>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+    <ul class="ulw" *ngFor = 'let page of pages;index as i'>
+            <li class="liw" *ngIf='i==currentPage;else other'><button class='btnw activew' (click)='changePage(page)'>{{page}}</button></li>
+            <ng-template #other>
+                <li><button class='btnw' (click)='changePage(page)'>{{page}}</button></li>
+            </ng-template>
+    </ul>
+    <div *ngIf='this.products.length==0' class="row justify-content-center">
+        <h3><i>Brak produktów do wyświetlenia</i></h3>
+    </div>
