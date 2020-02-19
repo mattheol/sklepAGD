@@ -1,0 +1,178 @@
+insert into produkt values (24,139.99,1,"DVD Sony DVP-SR760H","
+<div class='row'>
+<div class='col-md-4'>
+Odtwarzacz multimedialny Sony DVP-SR760H oferuje szeroką gamę funkcji i możliwości odtwarzania. W mechanice płyt łatwo odtworzysz płyty DVD-R/RW, ale także płyty CD-R i CD-RW. Do odtwarzania można użyć również przedniego wejścia USB do pendrive.
+</div>
+<div class='col-md-4'>
+Odtwarzacz nie ma kłopotów z odtwarzaniem plików w formacie MP3, WMA, JPG, AVI, MPG, DivX 4.x, 5.x i wyższych, Xvid. Wstępnie zainstalowany Subtitle Manager posłuży do zmiany wyglądu zobrazowanych napisów. Sprawą oczywistą jest wsparcie czeskich znaków w napisach.
+</div>
+<div class='col-md-4'>
+W celu podłączenia odtwarzacza do telewizora jest do wyboru cały szereg złącz. Właściciele nowoczesnych telewizorów zapewne ocenią możliwość połączenia za pomocą złącza HDMI. Jeżeli zamierzasz odtwarzacz używać w połączeniu ze starszym typem telewizora, masz do wyboru z komponentowego wyjścia video (Y, Pb, Pr), złącza SCART lub cyfrowego współosiowego wyjścia audio a kompozycyjnego wyjścia video.
+</div>
+</div>", "
+Kolor: czarny;
+Wymiary (szer. x wys. x głęb.): 550 x 225 x 230 mm;
+Waga: 1 kg;
+Pobór mocy: włączony brak danych , czuwanie brak danych;
+Zasilanie: 220 - 240 V 50/60 Hz;
+Wymiary opakowania: 25 x 28 x 10 cm;
+Waga z opakowaniem: 1 kg;
+formaty obrazu: divx,dvd-video,vcd;
+złącze hdmi: tak;
+cechy dodatkowe: polski tekst,obsługa napisów;
+formaty dźwięku: audio cd,mp3,wma", 1, 1);
+
+
+insert into produkt values (25,179.99,1,"DVD Hyundai DV-2-H 478 DU","
+<div class='row'>
+<div class='col-md-4'>
+Odtwarzacz multimedialny Hyundai DV2H478DU oferuje szeroką gamę funkcji i możliwości odtwarzania. W mechanice płyt łatwo odtworzysz płyty DVD-R/RW, ale także płyty CD-R i CD-RW. Do odtwarzania można użyć również przedniego wejścia USB do pendrive.
+</div>
+<div class='col-md-4'>
+Odtwarzacz nie ma kłopotów z odtwarzaniem plików w formacie MP3, WMA, JPG, AVI, MPG, DivX 4.x, 5.x i wyższych, Xvid. Wstępnie zainstalowany Subtitle Manager posłuży do zmiany wyglądu zobrazowanych napisów. Sprawą oczywistą jest wsparcie czeskich znaków w napisach.
+</div>
+<div class='col-md-4'>
+W celu podłączenia odtwarzacza do telewizora jest do wyboru cały szereg złącz. Właściciele nowoczesnych telewizorów zapewne ocenią możliwość połączenia za pomocą złącza HDMI. Jeżeli zamierzasz odtwarzacz używać w połączeniu ze starszym typem telewizora, masz do wyboru z komponentowego wyjścia video (Y, Pb, Pr), złącza SCART lub cyfrowego współosiowego wyjścia audio a kompozycyjnego wyjścia video.
+</div>
+</div>", "
+Kolor: czarny;
+Wymiary (szer. x wys. x głęb.): 550 x 225 x 230 mm;
+Waga: 1 kg;
+Pobór mocy: włączony brak danych , czuwanie brak danych;
+Zasilanie: 220 - 240 V 50/60 Hz;
+Wymiary opakowania: 25 x 28 x 10 cm;
+Waga z opakowaniem: 1 kg;
+formaty obrazu: divx,dvd-video,vcd;
+złącze hdmi: tak;
+cechy dodatkowe: polski tekst,obsługa napisów;
+formaty dźwięku: audio cd,mp3,wma", 1, 1);
+
+insert into produkt values (23,1189,3,"Płyta indukcyjna Whirlpool ACM 816 BA","
+<div class='row'>
+<div class='col-md-4'>
+<h5>Połącz pola grzejne i uzyskaj więcej miejsca dzięki funkcji Bridge</h5>
+Płyta indukcyjna Bridge 700 umożliwia połączenie dwóch pól grzejnych w jedną dużą powierzchnię do gotowania. Dzięki automatycznej synchronizacji temperatury i ustawień czasu jest to idealne rozwiązanie do użycia płyt grillowych typu plancha i naczyń do pieczenia.
+</div>
+<div class='col-md-4'>
+<h5>Strefy grzejne Infinite</h5>
+Strefy grzejne Infinite dostosowują się do rozmiarów Twoich garnków lub patelni niezależnie od ich wielkości, zapewniając najlepszą wydajność. Ciesz się efektywnym gotowaniem.
+</div>
+<div class='col-md-4'>
+<h5>Funkcja MultiBridge – możliwość połączenia pól grzejnych z myślą o lepszym smaku</h5>
+Funkcja Multiple Bridge pozwala stworzyć kilka dużych powierzchni do gotowania na płycie indukcyjnej. Połączone pola grzejne mają taką samą temperaturę i ustawienia czasu. Dzięki temu można ustawić na nich różne naczynia, takie jak płyty grillowe typu plancha czy naczynia do pieczenia.
+</div>
+</div>", "
+Typ płyty: indukcyjna;
+Bezramkowa ze szlifem;
+Direct Access: dotykowa technologia sterowania;
+Położenie elementów sterujących: z przodu po środku;
+Podświetlane sterowanie;
+Strefy indukcyjne z opcją Booster;
+Wykrywanie obecności garnka;
+Strefa lewa przednia: indukcyjna, 2300/3200 W/180x210 mm;
+Strefa lewa tylna: indukcyjna, 2300/3200 W/180x210 mm;
+Wymiary (szer. x gł.): 59 x 52 cm;
+Moc przyłączeniowa: 7,4 kW;
+Pola grzewcze: 4 pola indukcyjne;
+Wykonanie płyty grzewczej: ceramiczne - bez ramki;
+Łączenie pól grzejnych: tak;
+Sterowanie płyty grzewczej: elektroniczne - dotykowe (sensorowe) na płycie grzewczej", 15.50, 5);
+
+
+insert into produkt values (21,1339,1,"Zmywarka Siemens SR256I01TE","<h4>Siemens SR256I01TE</h4>
+<ul>
+<li>nr kat. 1178169</li>
+<li>Wymiary (SxWxG): 59,8 x 84,5 x 60 cm</li>
+<li>Pojemność - ilość kompletów: 14 kpl.</li>
+<li>Zużycie wody w cyklu: 10 litrów</li>
+<li>Roczne zużycie prądu: 266 kWh = 146,30 zł rocznie</li>
+<li>Poziom hałasu (zmywanie): 44 dB</li>
+<li>Mycie sztućców: szuflada na sztućce</li>
+<li>Kolor: czarny
+</ul>
+<h5>Oszczędzaj z klasą A++</h5>
+Klasa energetyczna A++ pomoże Ci znacznie zmniejszyć rachunki za energię elektryczną. Nie tylko zaoszczędzisz pieniądze, ale będziesz mieć także pozytywny wpływ na środowisko.
+<h5Umyj więcej za jednym razem</h5>
+Zmywarka o większej pojemności pomieści naczynia z obiadu całej rodziny. W łatwy sposób znajdziesz w niej miejsce także na duże garnki czy patelnie.", "
+Wymiary bez elementów wystających (SxWxG): 59,8 x 84,5 x 60 cm;
+Panel sterujący	zewnętrzny: (odkryty);
+Kolor: czarny;
+Programy zmywania: autoczyszczenie, automatyczny, codzienny, delikatny, ekonomiczny (eco), intensywny, krótki;
+Temperatury zmywania: 35, 40, 45, 55, 60, auto 45-55;
+Sterowanie: elektroniczne;
+Wyświetlacz elektroniczny: LED (diodowy);
+Wskaźnik braku soli: tak;
+Wskaźnik braku nabłyszczacza: tak;
+Opóźnienie startu pracy: tak;
+Połowa załadunku: nie;
+System mycia sztućców: szuflada na sztućce;
+Możliwość zabudowy pod blatem: tak;
+Wykonanie dna zmywarki: stal nierdzewna;
+Funkcje dodatkowe: mechaniczne zabezpieczenie przed otworzeniem przez dzieci, suszenie Hot Air, szuflada MaxiSpace3, Zone Wash", 30.50, 5);
+
+insert into produkt values (15,249,7,"Odkurzacz Karcher WD 3","<h5>Odkurzacz Karcher WD 3</h5>
+<p>Odkurzacze Electrolu xKarcher: reprezentują jedną z najbardziej zaawansowanych linii urządzeń. Łącząw sobie najwyższą skuteczność odkurzania klasy A z najniższym poziomem poboru energii. Charakteryzują się również doskonałą filtracją, dzięki filtrom Allergy Plus™. Odkurzacz UltraOne® to zdobywca wielu nagród za skuteczność pracy orazwzornictwo. Testowany przez konsumentów w 13 europejskich krajach w 2010 r. uzyskał status „best in test”, a także IF Product Design Award (2010 r. i 2014 r.) oraz Red Dot Design Award (2014 r.).</p>
+<h6>Wskażnik zapełnienia worka</h6>: Na odkurzaczu umieszczony jest maly wyświetlacz informujący o konieczności wymiany worka.
+<h6>Zintegrowane uchwyty</h6>: Dwa uchwyty ułatwiające przechowywanie.
+<h6>2 worki na kurz</h6>: Jeden worek na kurz w odkurzaczu i jeden dodatkowy.
+<h6>Regulacja mocy</h6>: Regulacja mocy pozwala wybrać odpowiednią tak, aby oszczędzać energię i jak najmniej hałasować.
+<h6>Miękkie kółka</h6>: Tłumią hałas, chronią podłogę oraz zapewniają łatwe i wygodne manewrowanie odkurzaczem.
+<h6>Aluminiowa rura teleskopowa AeroPro</h6>: Lekka, aluminiona rura o optymalnym przepływie powietrza.
+<h6>Miękkie zderzaki</h6>: Aby zapobiec otarciom mebli i scian
+<h6>Łatwo obracające się kółka</h6>: Łatwo obracające się kółka z metalowym mocowaniem sprawiają, że odkurzacz z łatwością podąża za Tobą. Ty kierujesz, a odkurzacz podąża za Tobą.
+", "
+Etykieta PNC: 900 940 522;
+Typ: New UltraOne;
+Model: EUO93DB;
+Filtr wylotowy: zmywalny filtr Allergy Plus;
+Promień działania [m]: 12;
+Wskaźnik zapełnienia worka: mechaniczny;
+Typ worka: s-bag o bardzo dużej wydajności;
+Pojemność worka [l]: 5;
+Liczba worków: 1+1;
+Wskaźnik filtra: nie;
+Filtr silnika: podstawowy filtr silnika w osłonie;
+Ssawki: Flow Motion;
+Ssawka turbo: nie;
+Funkcja delikatnego startu: tak;
+Rury: teleskopowa Aeropro;
+Zintegrowane akcesoria: Aeropro 3w1;
+Zdalne sterowanie: nie;
+Dodatkowe ssawki: AeroPro Parketto Pro;
+Zwijacz kabla: prosty;
+Przewód [m]: 9", 2.50, 5);
+
+Update Produkt SET nazwa ='Telewizor Sony KDL 50WF660' WHERE id_prod=7;
+
+ DELETE FROM Produkt where id_prod = 22;
+insert into produkt values (16,599,7,"Udkurzacz Electrolux UltraOne EUO93DB","<h5>Odkurzacz Electrolux UltraOne® EUO93DB</h5>
+<p>Odkurzacze Electrolux UltraOne®reprezentują jedną z najbardziej zaawansowanych linii urządzeń. Łącząw sobie najwyższą skuteczność odkurzania klasy A z najniższym poziomem poboru energii. Charakteryzują się również doskonałą filtracją, dzięki filtrom Allergy Plus™. Odkurzacz UltraOne® to zdobywca wielu nagród za skuteczność pracy orazwzornictwo. Testowany przez konsumentów w 13 europejskich krajach w 2010 r. uzyskał status „best in test”, a także IF Product Design Award (2010 r. i 2014 r.) oraz Red Dot Design Award (2014 r.).</p>
+<h6>Wskażnik zapełnienia worka</h6>: Na odkurzaczu umieszczony jest maly wyświetlacz informujący o konieczności wymiany worka.
+<h6>Zintegrowane uchwyty</h6>: Dwa uchwyty ułatwiające przechowywanie.
+<h6>2 worki na kurz</h6>: Jeden worek na kurz w odkurzaczu i jeden dodatkowy.
+<h6>Regulacja mocy</h6>: Regulacja mocy pozwala wybrać odpowiednią tak, aby oszczędzać energię i jak najmniej hałasować.
+<h6>Miękkie kółka</h6>: Tłumią hałas, chronią podłogę oraz zapewniają łatwe i wygodne manewrowanie odkurzaczem.
+<h6>Aluminiowa rura teleskopowa AeroPro</h6>: Lekka, aluminiona rura o optymalnym przepływie powietrza.
+<h6>Miękkie zderzaki</h6>: Aby zapobiec otarciom mebli i scian
+<h6>Łatwo obracające się kółka</h6>: Łatwo obracające się kółka z metalowym mocowaniem sprawiają, że odkurzacz z łatwością podąża za Tobą. Ty kierujesz, a odkurzacz podąża za Tobą.
+", "
+Etykieta PNC: 900 940 522;
+Typ: New UltraOne;
+Model: EUO93DB;
+Filtr wylotowy: zmywalny filtr Allergy Plus;
+Promień działania [m]: 12;
+Wskaźnik zapełnienia worka: mechaniczny;
+Typ worka: s-bag o bardzo dużej wydajności;
+Pojemność worka [l]: 5;
+Liczba worków: 1+1;
+Wskaźnik filtra: nie;
+Filtr silnika: podstawowy filtr silnika w osłonie;
+Ssawki: Flow Motion;
+Ssawka turbo: nie;
+Funkcja delikatnego startu: tak;
+Rury: teleskopowa Aeropro;
+Zintegrowane akcesoria: Aeropro 3w1;
+Zdalne sterowanie: nie;
+Dodatkowe ssawki: AeroPro Parketto Pro;
+Zwijacz kabla: prosty;
+Przewód [m]: 9", 2.50, 4);
